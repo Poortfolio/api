@@ -10,8 +10,8 @@ if [ -z "$SONAR_TOKEN" ]; then
   exit 1
 fi
 
-SONAR_PROJECT_KEY=PDF-Cloner_api
-SONAR_ORG=pdf-cloner
+SONAR_PROJECT_KEY=Portfolio_api
+SONAR_ORG=poortfolio
 
 if [ -z "$SONAR_PROJECT_KEY" ]; then
   echo "❌ sonar.projectKey not found in sonar-project.properties"
